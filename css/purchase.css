@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.purchase-intro {
+  max-width: 100%;
+  height: 370px;
+  background-color: #f0f8ff;
+  margin-bottom: 4rem;
+}
+
+.purchase-intro .pri-font {
+  color: #ff4400;
+  font-size: 64px;
+  font-weight: 900;
+}
+.purchase-intro .ques {
+  position: relative;
+  width: 1000px;
+  top: 80px;
+  left: 100px;
+}
+.ques p {
+  margin-bottom: 0;
+  line-height: normal;
+}
+.purchase-intro .nor-font {
+  font-size: 64px;
+  font-weight: 900;
+}
+.product-des {
+  padding: 3rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid #d1d0d0;
+}
+.product-des-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.product-des-container .image {
+  padding: 1rem;
+}
+.product-des-container .image img:hover {
+  transition: 0.5s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.product-des-container .description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2rem;
+}
+.product-des-container .description-container .product {
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.product-des-container .description-container .product h4 {
+  position: relative;
+  font-size: 42px;
+  font-weight: 900;
+  left: 20px;
+}
+
+.product-des-container .description-container .product span {
+  margin-left: 0;
+  left: 10px;
+  position: relative;
+}
+.product-des-container .description-container .product .price p {
+  position: relative;
+  left: 170px;
+  top: 20px;
+}
+.description-container .description {
+  margin-bottom: 2rem;
+  left: 10px;
+  position: relative;
+}
+.description-container .description h3 {
+  margin-bottom: 1rem;
+}
+
+.description-container .description p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #d1d0d0;
+}
+
+.description-container .cart-buttons {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  gap: 50px;
+  left: 10px;
+  position: relative;
+}
+.description-container .cart-buttons button {
+  height: 50px;
+  width: 200px;
+  top: 25%;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+.description-container .cart-buttons button:hover {
+  background-color: #ff4400;
+  border: 0;
+  transition: 0.15s;
+}
+.description-container .cart-buttons select {
+  height: 50px;
+  width: 200px;
+  top: 25%;
+  position: relative;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 1px solid #ced4da;
+}
+
+.description-container .delivery {
+  display: flex;
+  position: relative;
+  left: 10px;
+  gap: 20px;
+}
+
+/* CARD */
+
+.like {
+  margin-bottom: 5rem;
+  top: 50px;
+  position: relative;
+  height: 60px;
+  margin-left: 7rem;
+}
+
+.like h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  left: 120px;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.card-container .card {
+  border: none;
+}
+
+.card .info {
+  padding: auto;
+  margin-top: 2rem;
+  display: flex;
+  margin-left: 1rem;
+}
+.card .info .price {
+  right: 0;
+  position: absolute;
+}
+.card h4:hover {
+  color: #ff4400;
+  cursor: pointer;
+}
+
+.card .image:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card .image span {
+  position: absolute;
+  left: 4px;
+  background-color: white;
+  top: 15px;
+  padding: 5px;
+  font-weight: 600;
+  color: rgb(97, 91, 91);
+  font-size: 12px;
+}
+.card .image span:hover {
+  cursor: text;
+}
+.card .image i {
+  position: absolute;
+  right: 4px;
+  top: 15px;
+  color: white;
+}
+
+.card .image i:hover {
+  color: red;
+  transition: 0.4s;
+}
+
+/* Modal */
+
+.modal-content {
+  width: 800px;
+  height: 550px;
+}
+.modal-content .modal-header {
+  padding: 2rem;
+}
+.modal-content .modal-header img {
+  width: 350px;
+  height: 350px;
+}
+.modal-content .modal-header .image {
+  margin-right: 0;
+  padding-right: 0;
+}
+.modal-content .modal-header .product-container {
+  display: flex;
+}
+.modal-content .modal-header .product-container .product-info {
+  display: flex;
+  flex-direction: column;
+  left: 30px;
+  position: relative;
+}
+.modal-content .modal-header .product-container .product-info span {
+  margin-left: 0;
+  font-size: 14px;
+  font-weight: 300;
+  color: #717275;
+  margin-bottom: 1rem;
+}
+
+.modal-content .modal-header .product-container .product-info strong {
+  padding: 0;
+  color: #717275;
+  font-weight: 700;
+}
+
+.modal.show .modal-dialog {
+  left: -110px;
+}
+
+.modal-content .btn-close {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 25px;
+}
+
+.btn-primary {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 350px;
+    height: 50px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 0;
+}
+.btn-primary:hover{
+    background-color: #ff4400;
+}
+
+
+

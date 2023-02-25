@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.story {
+  color: #ff4400;
+  border-bottom: 1px solid #bdb8b8;
+}
+
+.contact-banner {
+  height: 500px;
+  width: 100%;
+  background-color: #f0f8ff;
+}
+.contact-banner .pri-font {
+  color: #ff4400;
+  font-size: 64px;
+  font-weight: 900;
+}
+
+.contact-banner .nor-font {
+  font-size: 64px;
+  font-weight: 900;
+}
+.contact-banner .contact-context {
+  position: relative;
+  top: 120px;
+  left: 100px;
+}
+.contact-context {
+  float: left;
+  width: 50%;
+}
+
+.contact-image {
+  float: right;
+  width: 50%;
+  object-fit: cover;
+  background-size: cover;
+}
+img {
+  width: 100%;
+  height: 500px;
+}
+
+.team {
+  width: 100%;
+  height: 450px;
+  background-color: #d0d1d1;
+  padding: 3rem;
+  overflow: hidden;
+}
+
+.team .heading {
+  position: relative;
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 3rem;
+  left: 70px;
+}
+.team h3 span {
+  color: #ff4400;
+}
+
+.team-container {
+  position: relative;
+  left: 70px;
+  display: flex;
+}
+
+.team-container .member {
+  display: flex;
+  position: relative;
+  padding: 2rem;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 0 1rem;
+  height: 190px;
+  width: 30%;
+}
+
+.team-container .member img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.team-container .member h3 {
+  margin-bottom: 0;
+  font-size: 34px;
+  font-weight: 600;
+}
+.team-container .member .info {
+  justify-content: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.team-container .member .info span {
+  margin: 0;
+  font-weight: 600;
+}
+.team-container .member i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #d0d1d1;
+}
+
+.team-container .member i:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.customer{
+    width: 100%;;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.customer .head {
+    position: relative;
+    margin-left: 40%;
+}
+
+.customer .head h3{
+    font-size: 42px;
+    font-weight: 750;
+}
+
+.customer .head h3 span{
+    color: #ff4400;
+}
+/* Slider */
+.slide .carousel::before {
+  content: open-quote;
+  display: inline-block;
+  color: #ff4400;
+  font-family: auto;
+  font-size: 100px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: -50px;
+  font-weight: 800;
+}
+.slide .carousel {
+  width: 70%;
+  left: 400px;
+  padding: 3rem;
+}
+.slide .carousel-indicators {
+  margin-left: 0;
+  left: -200px;
+}
+.slide .carousel-indicators [data-bs-target] {
+  background-color: black;
+}
+.slide .carousel-inner .d-block {
+  width: 65%;
+  height: 250px;
+  line-height: normal;
+  /* border: 1px solid black; */
+}
+
+.slide .carousel-inner .d-block .content {
+  /* border: 1px solid red; */
+  height: 40%;
+  font-size: 27px;
+  font-weight: 200;
+  color: #bdb8b8;
+}
+
+.slide .carousel-caption .client {
+  /* border: 1px solid green; */
+  display: flex;
+  width: 50%;
+  height: 60px;
+  justify-content: center;
+  left: -130px;
+  position: relative;
+  flex-direction: row;
+}
+.slide .carousel-caption {
+  justify-content: center;
+  align-items: center;
+}
+.slide .carousel-caption .client img {
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+}
+
+.slide .carousel-caption .client h2 {
+  color: black;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  font-size: 16px;
+}
+.slide .carousel-caption .client span {
+  margin: 0;
+  font-weight: 700;
+  margin-left: 4.5px;
+}
+/* Modal */
+
+.modal-header h5{
+  color: black;
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
+.modal-header span{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.modal-header{
+  flex-direction: column;
+  justify-content:center;
+  height: 300px;
+}
+.modal-content{
+  width: 800px;
+}
+.modal.show .modal-dialog{
+  left: -110px;
+}
+
+.modal-content .btn-close{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 25px;
+}
+
+.modal-body{
+  padding: 3rem;
+}
+
+.modal-body h3{
+  padding-bottom: 2rem;
+}
+
+.modal-body .modal-infos{
+  display: flex;
+  width: 100%;
+}
+.modal-body .modal-infos .infoOne{
+  flex: 50%;
+}
+
+.modal-body .modal-infos .infoTwo{
+  flex: 50%;
+}
+.modal-body .modal-infos p{
+  color: #717275;
+  font-size: 20px;
+  font-weight: 300;
+
+}
+.modal-body .social-content{
+  display: flex;
+ 
+  align-items: center;
+ 
+}
+.modal-body .social-content i{
+  margin-left: 1rem;
+}
+.modal-body .social-content p{
+  font-weight: 500;
+  margin-bottom: 0;
+}
