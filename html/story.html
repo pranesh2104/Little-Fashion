@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.3.0-web/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/story.css" />
+    <title>Story</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav id="nav-bar">
+      <label><a href="../index.html" class="title">Little</a> Fashion</label>
+      <div class="nav-right">
+        <span><a href="../index.html">Home</a></span>
+        <span><a href="#" class="story">Story</a></span>
+        <span><a href="./product.html">Products</a></span>
+        <span><a href="./faqs.html">FAQs</a></span>
+        <span><a href="./contact.html">Contact</a></span>
+      </div>
+      <div class="end">
+        <a href="./signin.html"><i class="fa-regular fa-user"></i></a>
+        <a href="./purchase.html"
+          ><i class="fa fa-shopping-bag" aria-hidden="true"></i
+        ></a>
+      </div>
+    </nav>
+    <!-- Contact Banner -->
+    <div class="contact-banner">
+      <div class="contact-context">
+        <p class="pri-font">Company</p>
+        <p class="nor-font">Fashion</p>
+      </div>
+      <div class="contact-image">
+        <img src="../images/story.jpg" alt="" />
+      </div>
+    </div>
+    <div class="team">
+      <h3 class="heading">Meet out <span>team</span></h3>
+      <div class="team-container">
+        <div class="member">
+          <div class="image">
+            <img src="../images/team_vp.jpeg" alt="vp" />
+          </div>
+          <div class="info">
+            <h3>Don</h3>
+            <span>Product,VP</span>
+          </div>
+          <i
+            class="fa-solid fa-square-plus"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            onclick="vpInfo()"
+          ></i>
+        </div>
+        <div class="member">
+          <div class="image">
+            <img src="../images/team_marketing.jpeg" alt="market" />
+          </div>
+          <div class="info">
+            <h3>Kelly</h3>
+            <span>Marketing</span>
+          </div>
+          <i
+            class="fa-solid fa-square-plus"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            onclick="marketInfo()"
+          ></i>
+        </div>
+        <div class="member">
+          <div class="image">
+            <img src="../images/team_founder.jpeg" alt="founder" />
+          </div>
+          <div class="info">
+            <h3>Marie</h3>
+            <span>Founder</span>
+          </div>
+          <i
+            class="fa-solid fa-square-plus"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            onclick="founderInfo()"
+          ></i>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Don Haruko</h5>
+            <span id="exampleModalDesignation">Product, VP</span>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>
+              Over three years in business had the chance to work on variety of
+              projects, with companies
+            </h3>
+            <div class="modal-infos">
+              <div class="infoOne">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis dolores error expedita adipisci aspernatur
+                  repudiandae
+                </p>
+              </div>
+              <div class="infoTwo">
+                <p>
+                  beatae recusandae veniam minima eum, accusamus eaque quam
+                  molestias hic ipsa? sit vitae asperiores quidem,
+                </p>
+              </div>
+            </div>
+            <div class="social-content">
+              <p>Where to find?</p>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Finished -->
+    <div class="customer">
+      <div class="head">
+        <h3>Customer love,</h3>
+        <h3><span>Little</span> Fashion</h3>
+      </div>
+      <!-- Slider -->
+      <div class="slide">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-block w-80">
+                <div class="content">
+                  <p>
+                    Over three years in business, We've had the chance to work
+                    on a variety of projects, with companies Lorem ipsum dolor
+                    sit amet
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="client">
+                  <div class="image">
+                    <img src="../images/team_vp.jpeg" alt="" />
+                  </div>
+                  <h2>George,<span> Digital Art Fashion</span></h2>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-block w-80">
+                <div class="content">
+                  <p>
+                    Over three years in business, We've had the chance to work
+                    on a variety of projects, with companies Lorem ipsum dolor
+                    sit amet
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="client">
+                  <div class="image">
+                    <img src="../images/team_founder.jpeg" alt="" />
+                  </div>
+                  <h2>Sandar,<span> Zoom Fashion Idea</span></h2>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-block w-80">
+                <div class="content">
+                  <p>
+                    Over three years in business, We've had the chance to work
+                    on a variety of projects, with companies Lorem ipsum dolor
+                    sit amet
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="client">
+                  <div class="image">
+                    <img src="../images/team_marketing.jpeg" alt="" />
+                  </div>
+                  <h2>Marie,<span> Art Fashion Design</span></h2>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-block w-80">
+                <div class="content">
+                  <p>
+                    Over three years in business, We've had the chance to work
+                    on a variety of projects, with companies Lorem ipsum dolor
+                    sit amet
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="client">
+                  <div class="image">
+                    <img src="../images/catherie.jpeg" alt="" />
+                  </div>
+                  <h2>Catherine,<span> Dress Fashion</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="copyright">
+          <h4><a href="../index.html">Little</a> Fashion</h4>
+          <p>Copyright &copy; 2022 <strong>Little Fashion</strong></p>
+          <p>Designed by Tooplate</p>
+        </div>
+        <div class="sitemap">
+          <h5>Sitemap</h5>
+          <ul>
+            <li><a href="./story.html">Story</a></li>
+            <li>Privacy Policy</li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./product.html">Products</a></li>
+            <li><a href="./faqs.html">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="social">
+          <h5>Social</h5>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-skype"></i>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function vpInfo() {
+        document.getElementById("exampleModalLabel").innerHTML = "Don Haruko";
+        document.getElementById("exampleModalDesignation").innerHTML =
+          "Product, VP";
+      }
+      function marketInfo() {
+        document.getElementById("exampleModalLabel").innerHTML = "Kelly Lisa";
+        document.getElementById("exampleModalDesignation").innerHTML =
+          "Global, Head of Marketing";
+      }
+      function founderInfo() {
+        document.getElementById("exampleModalLabel").innerHTML = "Marie Sam";
+        document.getElementById("exampleModalDesignation").innerHTML =
+          "Founder & CEO";
+      }
+    </script>
+  </body>
+</html>
